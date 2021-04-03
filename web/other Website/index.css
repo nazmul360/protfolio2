@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{margin: 0;padding: 0;}
+
+ul.sub_menu {
+    list-style: none;
+    float: right;
+}
+
+ul.sub_menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: ui-sans-serif;
+    padding: 30px 20px;
+}
+
+.menu {
+    width: 950px;
+    float: left;
+    padding-top: 20px;
+}
+
+li {}
+
+ul.sub_menu li {
+    float: left;
+    position: relative;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.prymrywrper {
+    width: 100%;
+    display: table;
+}
+
+.MenuLogo {
+    width: 150px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header#topber {
+    background: linear-gradient(45deg, #0ba99bfc, transparent),url(img/slider-bg-1.jpg);
+    padding-bottom: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul.sub_page_menu {
+    list-style: none;
+    width: 200px;
+    position: absolute;
+    background: #000000c9;
+    top: 49px;
+    transform: scale(0);
+    opacity: 0;
+    transform-origin: top;
+    visibility: hidden;
+    transition: .6s;
+    padding: 25px;
+    border-top: 2px solid #00968826;
+}
+ul.sub_menu li:hover .sub_page_menu{
+ transform: scale(1);
+ visibility: visible;
+ opacity: 1;
+}
+
+ul.sub_page_menu li {
+    float: none;
+    position: relative;
+}
+
+ul.sub_page_menu li a {
+    padding: 7px 0px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: ui-sans-serif;
+    display: block;
+    width: 100%;
+    transition: .6s;
+}
+ul.sub_page_menu li a:hover{
+    transform: translateX(10px);
+}
+
+.slyderContant {
+    width: 500px;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.slyderContant h1 {
+    font-size: 50px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.slyderContant p {
+    text-align: center;
+    color: #ddd;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+}
+button.Explore {
+    background: #28ABE3;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 45px;
+    font-weight: 700;
+    color: #ddd;
+    width: 170px;
+    border-radius: 5px;
+    transition: .6s;
+    border: 1px solid #dddddda3;
+}
+
+button.Explore:hover {
+    background: #333;
+    border: 1px solid #28ABE3;
+}
+/*Section padding parmanent */
+section{
+    padding: 80px 0px;
+}
+
+.ourOfferTitle {
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 80px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ourOfferTitle p:after {content: "";background: #28ABE3;width: 100px;position: absolute;border-bottom: 3px solid #28ABE3;left: 50%;transform: translateX(-50px);bottom: 0px;display: block;}
+
+.ourOfferTitle h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.ourOfferTitle p {
+    width: 550px;
+    margin: auto;
+    line-height: 25px;
+    color: #999;
+    margin-bottom: 10px;
+}
+.left_tImg {
+    width: 350px;
+    float: left;
+}
+
+.left_tImg img {
+    height: 690px;
+}
+.rightElements {
+    width: 770px;
+    float: right;
+    overflow: hidden;
+}
+
+.ourOfferWrper {
+    overflow: hidden;
+}
+
+.singleElements {
+    width: 310px;
+    text-align: center;
+    background: white;
+    padding: 50px 20px;
+    border: 1px solid #ddd;
+    float: left;
+    margin-left: 25px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    transition: .5s;
+}
+.ElementsLogo {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    background: #28ABE3;
+    border-radius: 100%;
+    margin: auto;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 9px 3px #ddd;
+    margin-bottom: 25px;
+}
+
+.ElementsLogo i {
+    font-size: 30px;
+    color: white;
+}
+
+.ElementsConatnt h3 {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.ElementsConatnt p {
+    color: #333;
+    line-height: 25px;
+    width: 262px;
+    margin: auto;
+}
+
+
+.singleElements:hover {
+    box-shadow: 1px 4px 8px 4px #0000004d;
+}
+
+.singleElements:hover .ElementsLogo {
+   
+    background: white;
+}
+.singleElements:hover .ElementsLogo i{
+    color: #28ABE3 ;
+} 
+.rightWQIMG {
+    width: 530px;
+    float: left;
+}
+
+.rightWQIMG img {
+    width: 100%;
+}
+
+.leftBingoContant {
+    width: 530px;
+    float: right;
+}
+
+.leftBingoContant li {
+    list-style: none;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.leftBingoContant li i {
+    color: #28ABE3;
+    margin-right: 20px;
+    float: left;
+    width: 20px;
+    margin-top: 10px;
+    transition: .3s;
+}
+.leftBingoContant li p {
+    width: 490px;
+    float: right;
+    line-height: 30px;
+    color: #999;
+}
+button.learnMore {
+    border: none;
+    background: #28ABE3;
+    padding: 15px 30px;
+    width: 170px;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-weight: 700;
+    color: #efe9e9;
+    border: 1px solid #ddd;
+    transition: .5s;
+}
+
+button.learnMore:hover {
+    background: #333;
+    border:2px solid #28ABE3;
+}
+section#Bingo_Agency {
+    background: #F7F7F7;
+    overflow: hidden;
+}
+
+.leftBingoContant li i:hover {
+    color: tomato;
+}
+section#contact_us {
+    overflow: hidden;
+    background: linear-gradient(45deg, #00000029, transparent),url(img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contactContent {
+    width: 506px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.contactContent h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.contactContent p {
+    line-height: 25px;
+    color: #ddd;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+button#contact_button {
+    border: none;
+    width: 170px;
+    padding: 15px 30px;
+    background: #28ABE3;
+    font-weight: 600;
+    color: #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .5s;
+    border: 1px solid #ddd;
+}
+
+button#contact_button:hover {
+    background: #333;
+    border: 1px solid #28ABE3;
+}
+
+.sigleAward {}.sigleAward {
+    width: 223px;
+    float: left;
+    text-align: center;
+    padding: 25px 10px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.AwardWrper {
+    overflow: hidden;
+}
+
+.AwardWrper {}
+
+.sigleAward:first-child {
+    margin-left: 0;
+}
+
+.awardLogo {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #28ABE3;
+}
+.awardConatnt h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.sigleAward:before {content: "";width: 1px;height: 50px;background: #ddd;position: absolute;right: 0;top: 80px;}
+.sigleAward:nth-child(4):before {
+    width: 0;
+}
+.awardConatnt h4 {
+    font-size: 20px;
+}
+
+section#Comment {
+    background: #28ABE3;
+    position:relative;
+}
+
+.comment_contant {
+    text-align: center;
+    color: white;
+}
+
+.cooment_logo {
+    width: 70px;
+    height: 70px;
+    font-size: 60px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.comment_contant p {
+    width: 740px;
+    line-height: 25px;
+    margin: auto;
+    font-size: 16px;
+    font-family: Nunito;
+}
+.aboutMe {
+    width: 390px;
+    text-align: center;
+    margin: auto;
+}
+
+.myPhoto img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.myPhoto {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.myTitle h3 {font-size: 20px;margin-bottom: 14px;}
+.myTitle span {
+    font-size: 16px;
+    color: #333;
+}
+section#Ourteam {
+    position: relative;
+    top: -115px;
+    overflow: hidden;
+    padding: 0;
+}
+.newPostimg img {
+    width: 100%;
+}
+
+.newPostimg {
+    width: 370px;
+}
+
+.NewsiglePost {
+    width: 370px;
+    border: 1px solid #ddd;
+    float: left;
+    margin-left: 12px;
+    transition: .5s;
+    margin-bottom: 15px;
+}
+
+.newPostcontant h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.newPostcontant p {
+    margin-bottom: 15px;
+    color: #999;
+}
+
+.newPostcontant {
+    padding: 20px;
+    background: white;
+}
+button#ReadMore {
+    border: none;
+    background: #28ABE3;
+    padding: 15px 25px;
+    width: 140px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    transition: .5s;
+    border: 1px solid #28ABE3;
+}
+
+button#ReadMore:hover {
+    background: #333;
+    border: 1px solid #28ABE3;
+}
+.NewsiglePost:first-child {
+    margin-left: 0;
+}
+
+.NewsPostWrper {
+    overflow: hidden;
+}
+section#NewsPost {
+    background: #F6F6F6;
+}
+.sigleFooter {
+    width: 270px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 18px;
+}
+
+.footerWrpr {
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+.sigleFooter:first-child {
+    margin-left: 0;
+}.sigleFooter h3 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #ddd;
+}
+
+.sigleFooter p {
+    line-height: 25px;
+    font-size: 16px;
+    color: #ddd;
+}
+
+.sigleFooter li {
+    list-style: none;
+    line-height: 25px;
+    color: #ddd;
+}
+
+
+
+.footerList li:hover {
+    color: #28ABE3;cursor: pointer;
+}
+footer#Footer {
+    background: #222222;
+    padding-top: 60px;
+}
+.container1 {
+    width: 1170px;
+    margin: auto;
+    color: #999;
+}
+
+.EndFfooter {
+    padding: 40px 0px;
+    background: #1B1B1B;
+    border-top: 2px solid #ddd;
+}
+
+.EnDfooterContant {
+    font-size: 15px;
+    text-align: center;
+}
+.NewsiglePost:hover {
+    transform: translateY(10px);
+}
+ul.sub_page_menu:after {content: "";width: 26px;height: 26px;position: absolute;background: #000000c9;top: -9px;left: 66px;transform: skewY(-45deg);}

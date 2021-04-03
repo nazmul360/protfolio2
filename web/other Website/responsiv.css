@@ -1,0 +1,125 @@
+@media(max-width:768px){
+    .container {
+        max-width: 100%;
+    }
+    .ourOfferTitle {
+        width: 100%;
+    }
+    
+    .left_tImg {
+        width: 100%;
+        text-align: center;
+    }
+    .slyderContant {
+        width: 98%;
+    }
+    .singleElements {width: 90%;margin: 10px;}
+
+   .rightElements {
+    width: 97%;
+    margin: 10px;
+   }
+   .rightWQIMG {
+    width: 100%;
+}
+
+  .leftBingoContant {
+    width: 93%;
+    margin: 10px;
+  }
+
+  .leftBingoContant li p {
+    width: 93%;
+  }
+  .leftBingoContant li i {
+    width: 0;
+}
+.container {
+    width: 100%;
+}
+
+.contactContent {
+    width: 100%;
+    margin: 10px;
+}
+.sigleAward {
+    width: 100%;
+    margin: auto;
+}
+.comment_contant p {
+    width: 100%;
+}
+.aboutMe {
+    width: 100%;
+}
+.newPostimg {
+    width: 100%;
+}
+
+.NewsiglePost {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.NewsiglePost:first-child {
+    margin-left: 10px;
+}
+.footerWrpr {
+    width: 100%;
+    
+}
+
+.sigleFooter {
+    width: 100%;
+    text-align: center;
+}
+
+
+.sigleFooter p {
+    width: 71%;
+    margin: auto;
+}
+
+.footerList {
+    width: 71%;
+    margin: auto;
+}
+
+.sigleFooter h3 {
+    text-align: center;
+}
+
+.container1 {
+    width: 100%;
+}
+.sigleFooter:first-child {
+    margin-left: 18px;
+}
+.MenuLogo {
+    width: 100%;
+    text-align: center;
+}
+
+.menu {
+    width: 100%;
+}
+.AwardWrper {
+    column-count: 2;
+
+
+}
+
+
+.footerWrpr {
+    column-count: 2;
+}
+
+
+.sigleFooter:nth-child(4) {
+    margin-top: 100px;
+}/*===============Footer=============*/
+
+
+
+
+}
+/*=================Important=====================*/

@@ -1,0 +1,134 @@
+body{
+    background: #560864;
+}
+.container {
+    width: 1170px;
+    background: white;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.leftSignUp {
+    width: 300px;
+    float: left;
+    text-align: center;
+    height: 500px;
+}
+
+.rightSignUP {
+    width: 700px;
+    float: right;
+    background: linear-gradient(45deg, #9c27b0db, #9c27b0db),url(pexels-burst-374016.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.leftSignUp h1 {
+}
+
+
+.leftSignUp input {
+    border: none;
+    border-bottom: 2px solid #be4da4;
+    margin-bottom: 50px;
+    width: 200px;
+    color: #573671;
+    padding: 10px;
+    outline: none;
+}
+.rightSignUP h1 {
+    /* color: white; */
+    /* text-align: center; */
+    /* margin-bottom: 50px; */
+    /* margin-top: 50px; */
+}
+
+.rightSignUP p {
+    /* margin-bottom: 182px; */
+    /* text-align: center; */
+    /* color: white; */
+}
+.subsignup {
+    padding: 80px;
+}
+
+.subsignup h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+    color: #573671;
+}
+
+button {
+    border: none;
+    /* margin-left: -28px; */
+    background: #573671;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: .5s;
+    border: 1px solid #573671;
+    text-align: center;
+    margin-right: -10px;
+    box-shadow: 0px 0px 6px 4px #3333334a;
+}
+
+button:hover {
+    background: #333;
+    border: 1px solid #009688;
+}
+.sightSubsingup {
+    width: 250px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.sightSubsingup h1 {
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.sightSubsingup p {
+    color: white;
+}
+b#REturn {margin-left: -140px;display: block;margin-top: 20px;}
+.sightSubsingup {}
+
+.rightSignUP span {
+    width: 25px;
+    height: 4px;
+    background: white;
+    position: absolute;
+    bottom: 30px;
+    left: 218px;
+    margin-left: 70px;
+}
+
+.rightSignUP span:nth-child(2) {
+    width: 25px;
+    height: 4px;
+    background: #a38e8e;
+    position: absolute;
+    bottom: 30px;
+    left: 218px;
+    margin-left: 140px;
+}
+
+.rightSignUP span:last-child {
+    width: 25px;
+    height: 4px;
+    background: #a38e8e;
+    position: absolute;
+    bottom: 30px;
+    left: 218px;
+    margin-left: 104px;
+}
